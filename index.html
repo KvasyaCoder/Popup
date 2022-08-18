@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range rover</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <div id="popup" class="popup  clear ">
+       
+        <div class="popup__content">
+                <a href="#" class="popup_close">Close window</a>
+                <div class="popup__title">
+                    <h1> Как с вами связаться:</h1>
+                </div>
+                <div class="popup__main">
+                    <form class="row gx-3 gy-2 align-items-center">
+                        <div class="col-sm-3">
+                          <label class="visually-hidden" for="specificSizeInputName">Name</label>
+                          <input type="text" class="form-control" id="specificSizeInputName" placeholder="Иван Иванов">
+                        </div>
+                        <div class="col-sm-3">
+                          <label class="visually-hidden" for="specificSizeInputGroupUsername">Username</label>
+                          <div class="input-group">
+                            <div class="input-group-text">@</div>
+                            <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="email address">
+                          </div>
+                        </div>
+                        
+                        <div class="col-auto">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+                            <label class="form-check-label" for="autoSizingCheck2">
+                              Получать специальные предложения
+                            </label>
+                          </div>
+                        </div>
+                      </form>
+                </div>
+                    <button class="callme"> Отправить</button>
+                
+        </div>
+    </div>
+        
+
+    <header class="header">
+        <div class="container header-container">
+                <a> Range rover Moscow</a>
+            <button class ="burger btn-reset" aria-label = "Open menu">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </button>
+        </div>
+    </header>
+<main> 
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-subtitle"></span>
+                <h1 class="hero-title">
+                    New Range Rover 
+                </h1>
+                <p class="hero-descr">Роскошный внедорожник, флагман модельного ряда Land Rover. В лаконичном дизайне отсутствуют лишние детали, благодаря чему автомобиль имеет впечатляющий современный облик. Это самый желанный Range Rover из когда-либо созданных.
+                </p>
+
+            <a href="#" class ="open_popup hero-link link">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+							x="0px" y="0px" viewBox="0 0 494.148 494.148" style="enable-background:new 0 0 494.148 494.148;"
+							xml:space="preserve">
+							<g>
+								<g>
+									<path d="M405.284,201.188L130.804,13.28C118.128,4.596,105.356,0,94.74,0C74.216,0,61.52,16.472,61.52,44.044v406.124
+									c0,27.54,12.68,43.98,33.156,43.98c10.632,0,23.2-4.6,35.904-13.308l274.608-187.904c17.66-12.104,27.44-28.392,27.44-45.884
+									C432.632,229.572,422.964,213.288,405.284,201.188z" />
+								</g>
+							</g>
+						</svg>
+                        <span>Get offer from us</span> 
+            </a>
+            </div>
+        </div>
+       
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
